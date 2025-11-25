@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fated - Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-5">
+    <div class="w-full max-w-sm mx-auto">
+        <div class="bg-gradient-to-b from-[#E57373] to-[#D26C73] min-h-[667px] flex flex-col pt-16 px-8 pb-10">
+            <!-- Logo -->
+            <div class="flex flex-col items-center mb-12">
+                <div class="mb-5">
+                    <svg width="120" height="120" viewBox="0 0 120 120" fill="none">
+                        <circle cx="60" cy="60" r="50" fill="#C5444F"/>
+                        <path d="M60 45L52 37C48 33 42 33 38 37C34 41 34 47 38 51L60 73L82 51C86 47 86 41 82 37C78 33 72 33 68 37L60 45Z" fill="white"/>
+                    </svg>
+                </div>
+                <h1 class="text-white text-5xl font-bold tracking-[0.4em]" style="font-family: Arial, sans-serif;">FATED</h1>
+            </div>
+
+            <!-- Tabs -->
+            <div class="flex mb-8">
+                <a href="login.html" class="flex-1 bg-white/30 text-white py-4 text-center text-sm font-semibold tracking-wider rounded-l-lg hover:bg-white/40 transition-colors">
+                    LOGIN
+                </a>
+                <button class="flex-1 bg-white text-[#D26C73] py-4 text-center text-sm font-semibold tracking-wider rounded-r-lg">
+                    REGISTER
+                </button>
+            </div>
+
+            <!-- Form -->
+            <form class="flex flex-col gap-4 mb-8">
+                <input type="text" placeholder="user name" required
+                       class="bg-white border-none py-4 px-5 rounded-lg text-sm text-gray-800 placeholder-gray-400">
+                <input type="password" placeholder="password" required
+                       class="bg-white border-none py-4 px-5 rounded-lg text-sm text-gray-800 placeholder-gray-400">
+                <input type="email" placeholder="email" required
+                       class="bg-white border-none py-4 px-5 rounded-lg text-sm text-gray-800 placeholder-gray-400">
+                
+                <a href="#" class="text-white text-xs text-right font-semibold tracking-wider">
+                    FORGOT PASSWORD?
+                </a>
+                
+                <button type="submit" class="bg-white text-[#D26C73] py-4 rounded-lg text-base font-bold tracking-widest mt-3 hover:-translate-y-0.5 transition-transform">
+                    REGISTER
+                </button>
+            </form>
+
+            <!-- Footer -->
+            <div class="text-center mt-auto pt-8">
+                <p class="text-white text-xs tracking-wide">
+                    ALREADY HAVE AN ACCOUNT? <a href="login.html" class="font-bold hover:underline">LOGIN</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
